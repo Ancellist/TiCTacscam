@@ -32,10 +32,11 @@ public class TicTac {
                 System.out.println("Sorry, DRAW!");
                 break;
             }
+            printTable();
             turnHuman2();
             printTable();
             if (checkWin(SIGN_O)) {
-                System.out.println("AI WIN!");
+                System.out.println("FUCKING SLAVE WIN!");
                 break;
             }
             if (isTableFull()) {
